@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title-container {
+  margin-top: 20px;
+}
+
+.jumbotron {
+  background-image: url("../images/train-header1.jpg");
+  background-size: cover;
+  color: midnightblue;
+  text-align: center;
+  border: 2px solid midnightblue;
+  border-radius: 8px;
+}
+
+.display-4 {
+  font-size: 80px;
+}
+
+.lead {
+  font-size: 30px;
+}
+
+#display-container {
+  margin-bottom: 15px;
+}
+
+#center-cell {
+  text-align: center;
+}
+
+th,
+.card-header {
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#submit-button,
+.card-header{
+  background-color: midnightblue;
+  color: white;
+}
+
+#submit-button {
+  float: right;
+  margin-bottom: 15px;
+}
